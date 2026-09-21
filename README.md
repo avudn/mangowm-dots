@@ -1,5 +1,5 @@
 # mangowm-dots
-mangowm dots inspired by my old gentoo-dark oxwm-dots. has lots of cool stuff and custom material rofi theme
+mangowm dots inspired by my old gentoo-dark oxwm-dots. has lots of cool stuff and custom material rofi theme <br>
 it uses libertinus mono font by the way!
 
 <img src=./images/3.png height=420> <br>
