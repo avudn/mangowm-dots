@@ -1,0 +1,38 @@
+@import url('https://refact0r.github.io/system24/build/system24.css');
+
+body {
+    --font: 'Libertinus Mono', 'JetBrains Mono';
+    --code-font: 'JetBrainsMono', 'JetBrains Mono';
+    font-weight: 400;
+
+    --gap: 12px;
+    --border-thickness: 3px;
+    --unrounding: on;
+}
+
+:root {
+    --text-1: #f0e2d4;
+    --text-2: #e0c9b8;
+    --text-3: #c9a24a;
+    --text-4: #a88a76;
+    --text-5: #7a4a3a;
+
+    --bg-1: #3a2b25;
+    --bg-2: #2b1f1a;
+    --bg-3: #221a16;
+    --bg-4: #1a1310;
+    --hover: #c9a24a14;
+    --active: #c9a24a24;
+    --active-2: #c9a24a33;
+
+    --accent-1: #c9a24a;
+    --accent-2: #9e3b3b;
+    --accent-3: #9e3b3b;
+    --accent-4: #b85050;
+    --accent-5: #7a2e2e;
+
+    --border-light: #7a4a3a8d;
+    --border: #7a4a3a8d;
+    --border-hover: #c9a24a;
+    --button-border: #7a4a3a8d;
+}
