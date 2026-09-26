@@ -1,0 +1,51 @@
+/* Vesktop QuickCSS: system24 recolored to the purple Alacritty palette */
+
+/* remove this line if system24 is already enabled as a theme */
+@import url('https://refact0r.github.io/system24/build/system24.css');
+
+body {
+    --font: 'Libertinus', 'Libertinus Mono';
+    --code-font: 'JetBrainsMono', 'JetBrains Mono';
+    font-weight: 400;
+
+    --gap: 12px;
+    --border-thickness: 3px;
+    --unrounding: on;
+
+    /* 92% opaque window, needs transparent window enabled in Vesktop */
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+}
+
+:root {
+    /* text */
+    --text-0: var(--bg-4);
+    --text-1: #c4bbfb;
+    --text-2: #b0a4f9;
+    --text-3: #9c8ef7;
+    --text-4: #6e5ac2;
+    --text-5: #4b357a;
+
+    /* backgrounds (EB = 92% opacity) */
+    --bg-1: #2a2542;
+    --bg-2: #1c1a2e;
+    --bg-3: #0f0d1c;
+    --bg-4: #080711;
+    --hover: #9c8ef714;
+    --active: #9c8ef724;
+    --active-2: #9c8ef733;
+
+    /* accents */
+    --accent-1: #9c8ef7;
+    --accent-2: #6e5ac2;
+    --accent-3: #6e5ac2;
+    --accent-4: #8471d6;
+    --accent-5: #5a44a0;
+
+    /* borders: same color everywhere, matches mango's border color */
+    --border-light: #2e26518d;
+    --border: #2e26518d;
+    --border-hover: #6e5ac2;
+    --button-border: #2e26518d;
+}

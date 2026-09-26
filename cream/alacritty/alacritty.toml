@@ -1,0 +1,41 @@
+[window]
+# opacity=0.92
+[window.padding]
+y = 25 
+x = 25  
+
+[font]
+normal = { family = "Libertinus Mono", style = "SemiThin" }
+size = 13
+offset = {x = -2,5}
+
+
+
+
+[colors.primary]
+background = "#FFF8F0"
+foreground = "#1E1E24"
+
+[colors.cursor]
+text   = "#FFF8F0"
+cursor = "#111D4A"
+
+[colors.normal]
+black   = "#1E1E24"
+red     = "#92140C"
+green   = "#0A1230"
+yellow  = "#D9A055"
+blue    = "#111D4A"
+magenta = "#5C0C08"
+cyan    = "#2C3F7A"
+white   = "#EDE0D0"
+
+[colors.bright]
+black   = "#3A3A42"
+red     = "#C41D12"
+green   = "#111D4A"
+yellow  = "#FFCF99"
+blue    = "#2C3F7A"
+magenta = "#92140C"
+cyan    = "#2C3F7A"
+white   = "#FFF8F0"
