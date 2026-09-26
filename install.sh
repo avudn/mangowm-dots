@@ -20,12 +20,14 @@ wall_for_theme() {
 echo "Which theme do you want to install?"
 echo "  1) nezrin"
 echo "  2) voidlet"
-printf "Enter 1 or 2: "
+echo "  3) cream"
+printf "Enter 1-3: "
 read -r choice
 
 case "$choice" in
 1) THEME="nezrin" ;;
 2) THEME="voidlet" ;;
+3) THEME="cream" ;;
 *)
   echo "invalid choice"
   exit 1
